@@ -56,7 +56,7 @@ class StripeGenerator(Sequence):
         Calculate the number of mini-batches per epoch.
 
         Returns
-        _______
+        -------
             int
                 Number of mini-batches.
         """
@@ -67,7 +67,7 @@ class StripeGenerator(Sequence):
         Generate mini-batch with records number determined by batch_size.
 
         Returns
-        _______
+        -------
             batch_x_np : numpy.array
                 Normalized images.
             batch_y_np : numpy.array(int)
